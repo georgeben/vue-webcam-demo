@@ -1,4 +1,10 @@
-# camera-demo
+# Camera-demo
+
+Demo on how to take photos using your webcam in Vue
+
+
+### Note
+The camera can only be accesses via https or using localhost. https://sites.google.com/a/chromium.org/dev/Home/chromium-security/deprecating-powerful-features-on-insecure-origins
 
 ## Project setup
 ```
@@ -19,6 +25,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
