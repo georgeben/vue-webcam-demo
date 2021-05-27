@@ -32,6 +32,7 @@ export default {
     video.srcObject = stream;
     } catch (error) {
       alert("Could not open camera");
+      // TODO Handle error which could probably because the user did not grant the permission to use the camera
       console.log("Why", error)
     }
   },
